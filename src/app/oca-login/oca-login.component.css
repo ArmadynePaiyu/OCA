@@ -1,0 +1,87 @@
+
+.foot {
+    position: absolute;
+    bottom : 0px;
+    text-align: center;
+}
+
+
+.content {
+
+    height : 430px;
+    width : 100%;
+    padding:15px;
+
+}
+
+.content:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    background-color: #fff;
+
+
+    box-shadow: 0px 2px 6px #ddd;
+}
+
+ul li a {
+    color : #333;
+    font-family : Proxima Nova ;
+    font-weight: 600;
+}
+
+.mylabel{
+    margin-top : 2em;
+    margin-bottom : 0.2em;
+    font-weight: 400;
+    font-family : Proxima Nova;
+    font-size:14px;
+}
+
+.myLink{
+    font-weight : 600;
+    color : #08A99A;
+    font-size: 15px;
+}
+
+.info{
+    list-style-type: none;
+    padding : 0px;
+}
+
+.info a {
+    margin-left : 10px;
+}
+
+.search-box{
+    position : absolute;
+    bottom : 15px ;
+    display : inline;
+    width : 360px;
+}
+
+.search-box input{
+    width : 200px;
+    border : 1px solid #08A99A;
+    background: none;
+    border-radius: 50px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.search-box a {
+    margin-top: 5px;
+}
+
+.search-box input::placeholder {
+    font-size : 12px;
+    color : #ddd;
+
+}
+
+a {
+    color : #08A99A;
+}
+
+.small-header{
+    float: right;
+    font-size: 11px;
+}

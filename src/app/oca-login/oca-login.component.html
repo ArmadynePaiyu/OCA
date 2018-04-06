@@ -1,0 +1,95 @@
+<div class="container-fluid ">
+      
+  <div class="row">
+
+    <div class="col-lg-4">
+
+      <div class="content">
+
+        <img src="assets/network.svg" height="60px"/>
+        
+        <div class="mylabel">Currently Building</div>
+
+        <a  [routerLink]="['newConfig']" class="myLink">New Configuration</a>
+
+      </div>
+
+    </div>
+
+    <div class="col-lg-4">
+
+      <div class="content">
+
+          <ui-switch style="float:right;" [(ngModel)]="enable" color="#08A99A" size="small" switchColor="#f9f9f9"></ui-switch>
+
+          <img src="assets/chronometer.svg" height="60px"/>
+        
+          <div class="mylabel">Recent Configurations</div>
+
+
+          <div *ngIf="enable" class="recentCongif">
+
+           
+
+              <div>OCA Config 1 (Auto Sa...Search 123</div>
+
+              <div>New Search</div>
+
+              <div>OCA Config 1</div>
+
+              <div>OCA Config 7(Auto)</div>
+
+              <div>OCA Config 1(test)</div>
+
+          
+            
+          </div>
+
+
+          <div class="search-box">
+            <input type="text" placeholder="Search for Configurations" id="search">
+            <img src="assets/search.svg" height="20px" style="margin-left:5px"/>
+            <a href="#" style="float:right" >Advanced</a>
+          </div>
+
+      </div>
+      
+    </div>
+
+
+    <div class="col-lg-4">
+
+      <div class="content">
+
+          <span class="small-header">Simple Dashboard headers for internal users on OCAITG2</span>
+
+          <img src="assets/information.svg" height="60px"/>
+        
+          <div class="mylabel">Recommendations & Arts</div>
+
+
+
+
+
+          <ul class="info">
+            <li><img src="assets/bulb.svg" height="16px"/><a href="#">GetOCASupport</a></li>
+            <li><img src="assets/bulb.svg" height="16px"/><a href="#">KBRoadmap</a></li>
+            <li><img src="assets/bulb.svg" height="16px"/><a href="#">TechDirect</a></li>
+          </ul>
+
+      </div>
+      
+    </div>
+
+  </div>
+  
+</div>
+
+<div class="footer-copyright py-3 text-center foot" style="font-size:10px;">
+    © 2018 Copyright:
+   Hewlett Packard Enterprise Development 
+</div>
+
+
+
+

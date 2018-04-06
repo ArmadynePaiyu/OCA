@@ -1,0 +1,104 @@
+.backColo{
+    background-color: #f9f9f9;
+}
+
+.header {
+    padding : 10px;
+    border-bottom: 1px solid #ececec; 
+}
+
+.header a {
+    width : 20%;
+    float : left;
+    color : #333;
+    text-decoration: none;
+    font-weight: 500; 
+}
+
+.header a:hover{
+ color : #0AA991;
+}
+
+.header a i:hover {
+    color: #0AA991;
+}
+
+
+
+.header span {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color : #0AA991;
+    width : 60%;
+}
+
+
+.banner {
+    height : 45px;
+    width : inherit;
+    background-color: none;
+    text-align: center;
+    line-height: 45px;
+    font-size: 14px;
+    font-weight : 600;
+    color : #333;
+    border-bottom : 1px solid #ececec;
+
+}
+
+.input-divs{
+
+    padding : 5px;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+.form-group input {
+    border-radius: 0px !important;
+    background: none;
+    border : 1px solid #ccc;
+    outline:none;
+}
+
+.form-group select {
+    border-radius: 0px ;
+}
+
+.border-div{
+    border : 1px solid #ccc;
+}
+
+.btn-accept{
+position :absolute;
+bottom : 5px;
+right:20px;
+}
+
+#createBtn {
+    background: #0AA991;
+    border:none;
+    color : #fff;
+    width:100px;
+}
+
+#cancelBtn {
+    background: red;
+    border:none;
+    color : #fff;
+    width:100px;
+
+} 
+
+.form-group label {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.border-down{
+    padding-bottom : 5px;
+    border-bottom : 1px solid #ececec;
+}
+

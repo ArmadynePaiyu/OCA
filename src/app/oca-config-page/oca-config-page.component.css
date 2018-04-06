@@ -1,0 +1,187 @@
+.button-fun-div{
+
+    border : 1px solid #ddd;
+    width : 100%;
+    height : 60px;
+
+    line-height: 60px;
+}
+
+.button-fun-div i {
+    color : #888;
+    font-size: 16px;
+}
+
+.button-fun-div h6{
+    color : #888;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+
+.custom-changes-front {
+    padding:10px;
+
+}
+
+.custom-changes{
+    padding:10px;
+
+}
+
+
+.no-padding {
+    padding : 0px;
+}
+
+
+.search-fun-div{
+
+    background: none;
+    border  :1px solid #ddd;
+    width : 100%;
+    height : 60px;
+    padding : 12px;
+
+
+}
+
+.search-fun-div ul li{
+    display : inline-block;
+    padding-left : 15px;
+}
+.search-fun-div ul{
+    margin : 0px;
+    padding : 0px;
+}
+
+
+
+
+.myLabel {
+    font-size : 12px;
+    font-weight: 600;
+}
+.myValue {
+    font-size: 11px;
+    font-weight : 300;
+}
+
+#SearchConfig{
+    position :relative;
+    bottom : 3px;
+    width : 100%;
+    height:40px;
+    border : none;
+    border-radius : 3px;
+    outline : none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #888;
+    font-size: 10px;
+    padding : 6px;
+}
+
+.button-fun-div ul li {
+    display : inline-block;
+    padding-left:50px;
+
+
+}
+
+.button-fun-div button:hover{
+    color : #08A99A;
+    bottom  :3px;
+}
+
+
+
+.button-fun-div button {
+    background: none;
+    border : none;
+    position: relative;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.button-fun-div  i {
+    color : #333;
+    top:3px;
+    position: relative;
+}
+
+
+.button-fun-div ul{
+    padding-left: 0px;
+
+}
+
+.configLink {
+    margin-top: 5px;
+}
+.configLink {
+    padding-left: 0px;
+    margin-left : 0px;
+}
+
+
+.configLink li {
+    list-style: none;
+    height : 50px;
+    line-height: 50px;
+    border-bottom:1px solid #e7e7e7;
+    padding-left: 5px;
+    padding-right: 5px;
+    color : #333;
+    font-size: 14px;
+}
+
+.configLink li:hover {
+    color : #fff;
+    background-color: #01A982;
+}
+
+
+
+.configLink li i {
+    float : right;
+    line-height: 50px;
+    font-size : 16px;
+}
+
+.configTitle{
+
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left:5px;
+
+}
+
+.table-data{
+    margin-top: 10px;
+}
+
+.table-data table {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.active {
+    background-color: #01A982 ;
+    color : #fff;
+}
+
+.dropdown button{
+  float : right;
+  font-size: 13px;
+  margin-top: 15px;
+  text-align: left;
+  background: none;
+  border : 1px solid #01A982;
+  color : #333;
+}

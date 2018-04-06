@@ -1,0 +1,132 @@
+<div class="row">
+
+  <div class="col-md-6 col-sm-6 col-lg-6" style="text-align:center">
+
+    <div class="button-fun-div">
+
+      <div class="row">
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+
+          <i class="material-icons">save</i>
+          <button>Save</button>
+
+        </div>
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          <i class="material-icons">language</i>
+          <button>Quote</button>
+        </div>
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+
+          <i class="material-icons">content_paste</i>
+          <button>Catalog</button>
+        </div>
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+
+
+          <i class="material-icons"> next_week</i>
+          <button>Export</button>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="col-md-6 col-sm-6">
+
+
+
+    <div class="search-fun-div">
+
+      <div class="row">
+
+        <div class="col-md-4 col-sm-2 col-lg-2">
+
+          <div class="myLabel">UCID</div>
+          <div class="myValue">65212012-103</div>
+
+        </div>
+
+
+        <div class="col-md-4 col-sm-2 col-lg-2">
+
+
+          <div class="myLabel">Config Status</div>
+          <div class="myValue" style="color : red;font-weight:600;">Assigned</div>
+
+        </div>
+
+        <div class="col-md-4 col-sm-8 col-lg-8">
+
+          <input type="text" id="SearchConfig" placeholder="Search Config">
+
+
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+</div>
+
+<div class="row">
+
+  <div class="col-md-12">
+
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        OCA Config 1
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#"></a>
+        <a class="dropdown-item" href="#"></a>
+        <a class="dropdown-item" href="#"></a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="row">
+
+  <div class="col-md-3">
+
+    <h6 class="configTitle">Config Functions</h6>
+
+    <ul class="configLink">
+      <li id="configList" *ngFor="let list of configFuncList" [routerLink]="[list.name]">
+        {{list.name}}
+        <i class="material-icons">{{list.icon}}</i>
+      </li>
+    </ul>
+
+
+  </div>
+
+  <div class="col-md-9">
+
+    <h6 class="configTitle" style="margin-left:0px">OCA CONFIG 1 (SAVE)</h6>
+    <router-outlet></router-outlet>
+  </div>
+
+
+</div>
+
+<div class="footer-copyright py-3 text-center foot" style="font-size:10px;position :absolute;bottom:0px;">
+  © 2018 Copyright: Hewlett Packard Enterprise Development
+</div>

@@ -1,0 +1,29 @@
+[
+  {
+    "UCID" : "6103155467-01",
+    "Config Id" : "103153078",
+    "Name" : "Test Config 1",
+    "Version" : "01",
+    "OCAWorkgroup" : "[US][RSLR]AMS IT System",
+    "CustomerAccount" : "*Test Company for all tests",
+    "OpportunityId" : "OPE-00077492555",
+    "CreateDate"  : "03/5/2018",
+    "CreateBy" : "validation_hpe_us_rez_z_05",
+    "SharingStatus" : "Private",
+    "State" : "CI-IN-Progess",
+    "ActiveState" : "Active",
+    "Country"  : "Germany",
+    "ConfigStatus" : "",
+    "LifeCycleStatus" : "",
+    "Services" : "Flexible Support Services",
+    "Where Used Quote" : "N/A",
+    "Subconfig" : "1 direct,1 total",
+    "FAN/ID" : "N/A",
+    "InternalNotes" : "N/A",
+    "ConfigInstructions" : "N/A",
+    "KBVersion" : "Development_OneConfig",
+    "CustomConfig" : "Contains C2BXML:NO",
+    "CIState" : "Not Expected",
+    "CIDURL" : ""
+  }
+]

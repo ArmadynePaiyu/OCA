@@ -1,8 +1,21 @@
 .sum-look{
   width : 100%;
   height : 100%;
-  background-color: #f6f6f6;
+  background-color: none;
+  border : 1px solid #08A99A;
   padding: 10px;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.mess-look {
+  width : 100%;
+  height : 100%;
+  background-color: #08A99A;
+  padding: 10px;
+  height: 600px;
+  overflow-y: scroll;
+
 }
 
 .page-desc-sum ul {
@@ -12,4 +25,88 @@
 
 .page-desc-sum ul li{
   display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top:7px;
+  padding-bottom: 7px;
+}
+
+.page-desc-sum ul li:hover{
+  background-color: #ececec;
+}
+
+.page-desc-sum ul li label {
+  display: block;
+}
+
+
+
+.page-title-sum i {
+  font-size: 16px;
+}
+
+.page-title-sum span{
+  position: relative;
+  bottom: 3px;
+  font-weight: 700;
+
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom : 0px;
+}
+
+.value {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom : 0px;
+}
+
+
+
+.mess-look span{
+  color : #fff;
+  position: relative;
+  bottom: 3px;
+  font-weight: 700;
+}
+
+.mess-look i {
+  font-size: 16px;
+  color : #fff;
+}
+
+
+
+.page-desc-content{
+  padding-top:10px;
+}
+
+.custoBtnCol{
+  background: none;
+  border :0px;
+  color : #fff;
+  font-size: 13px;
+}
+
+.custoBtnCol:focus{
+  background: none !important;
+}
+.custoBtnCol:Active {
+  background: none !important;
+}
+
+
+
+.custoBtnCol i {
+  position: relative;
+top: 4px;
+left: 1px;
+font-size: 17px;
+}
+
+p{
+  margin-bottom: 0.3rem;
 }

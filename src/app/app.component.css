@@ -3,3 +3,16 @@ ul li a {
     font-family : Proxima Nova ;
     font-weight: 600;
 }
+
+.form-inline button{
+    border : none;
+}
+
+i {
+font-size: 24px;
+/* line-height: 38px; */
+position: relative;
+top: 4px; 
+
+}
+

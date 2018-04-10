@@ -1,0 +1,36 @@
+.btn-right{
+    float: right;
+}
+
+.bom-btn button {
+    background-color: #08A99A ;
+    border : 0px;
+    color : #fff;
+    font-size: 13px;
+   padding : 8px 24px;
+   font-weight: 600;
+}
+
+.bom-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table{
+    font-size: 13px;
+}
+table thead tr th{
+    font-weight: 500;
+}
+
+.table-dark {
+    background-color: #425563 !important;
+}
+.table-dark th{
+    border: none;
+}
+
+.bom-tite span{
+    font-size: 13px;
+    font-weight: 600;
+}

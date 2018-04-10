@@ -142,7 +142,7 @@
 
 .configLink li:hover {
     color : #fff;
-    background-color: #01A982;
+    background-color: #08A99A;
 }
 
 
@@ -182,6 +182,10 @@
   margin-top: 15px;
   text-align: left;
   background: none;
-  border : 1px solid #01A982;
+  border : 1px solid #08A99A;
   color : #333;
+}
+
+.dropdown button:active{
+    outline: none;
 }

@@ -1,0 +1,447 @@
+{
+    "actions": [
+        {
+            "code": "LOAD_PAGE",
+            "pluginName": "new_config_page",
+            "pageData": {
+                "members": {
+                    "widgets": {
+                        "catalog": {
+                            "widgets": {},
+                            "properties": {},
+                            "namespace": "catalog"
+                        },
+                        "overview": {
+                            "root": {
+                                "key": "root",
+                                "title": "OCA Config 3",
+                                "tooltip": "OCA Config 3",
+                                "expanded": true,
+                                "CustomerCompanyName": "",
+                                "children": [],
+                                "isPureSoftwareOrAccessory": true,
+                                "status": "CONFIGURATION_STATUS_OK"
+                            },
+                            "selected": "root",
+                            "imageFolder": "DEVELOPMENT_OneConfig_0_2_0_TD20180601_001_CD20180402_03_25/ExtraFiles/ProductImages/",
+                            "isImportBomMode": false,
+                            "hidePrice": true,
+                            "widgets": {},
+                            "properties": {},
+                            "namespace": "overview"
+                        },
+                        "header": {
+                            "user": {
+                                "user_id": "validation_hpe_us_res_z_05@transformq2c.com",
+                                "user_name": "validation hpe_us_res_z_05",
+                                "region": "NA",
+                                "country_code": "US",
+                                "country_name": "UNITED STATES",
+                                "user_type": "PRMExternalUser",
+                                "language_code": "en_US",
+                                "language_name": "English (US)",
+                                "isSqUser": false,
+                                "user_email": "validation_hpe_us_res_z_05@transformq2c.com",
+                                "oca_user_role": "Reseller",
+                                "oca_aaid": "3-K9S4VJ",
+                                "oca_authority_view_oppid": false,
+                                "oca_authority_view_list_price": false,
+                                "oca_authority_view_all_skus": false,
+                                "oca_authority_view_all_shares": true,
+                                "oca_authority_save_files": true,
+                                "oca_authority_open_files": true,
+                                "oca_authority_open_all_files": false,
+                                "oca_authority_hide_ci": true,
+                                "oca_authority_ci_output_all": true,
+                                "oca_authority_admin_ui": false,
+                                "oca_authority_view_all_legacy_docs": false,
+                                "showSingleBundleSDDExport": false
+                            },
+                            "oca_authority_admin_ui": false,
+                            "isConfigurationStarted": false,
+                            "appVersion": "OCA Main Trunk Development",
+                            "kbVersion": "DEVELOPMENT_OneConfig_0.2.0_TD20180601_001_CD20180402:03:25",
+                            "wngq_home": "https://ngq-itg-int.itcs.hpecorp.net/q2cwngq/ngom#/home",
+                            "environment": "ITG",
+                            "ocaInstance": "oca37",
+                            "url1": "https://hpenterprise.sharepoint.com/sites/b1/eg/OCA/Pages/default-page.aspx",
+                            "url2": "https://uag.us.hpecorp.net:8443/aveksa",
+                            "url3": "http://intranet.hp.com/gtbp/so/bus/Documents/window/GUS/ci.html",
+                            "enableSizerIntegration": true,
+                            "hasUserManagementPermission": false,
+                            "hasDelegationPermission": true,
+                            "roles": "Administrator,ITSupportTeam,KESSupportTeam,SolutionArchitect,CQSpecialist,SweetSpotSpecalist",
+                            "receivedDlgCount": 1,
+                            "widgets": {
+                                "recent_configs_widget": {
+                                    "widgets": {},
+                                    "properties": {},
+                                    "namespace": "header:recent_configs_widget",
+                                    "pluginName": "recent_configs"
+                                },
+                                "addon_supportonly": {
+                                    "widgets": {},
+                                    "properties": {},
+                                    "namespace": "header:addon_supportonly",
+                                    "pluginName": "addon_supportonly"
+                                },
+                                "config_delegate_widget": {
+                                    "root": {
+                                        "key": "root",
+                                        "receivedDlgCount": 1
+                                    },
+                                    "widgets": {},
+                                    "properties": {},
+                                    "namespace": "header:config_delegate_widget",
+                                    "pluginName": "config_delegate_widget"
+                                }
+                            },
+                            "properties": {},
+                            "namespace": "header"
+                        },
+                        "autoSave": {
+                            "widgets": {},
+                            "properties": {},
+                            "namespace": "autoSave",
+                            "pluginName": "autoSave"
+                        },
+                        "opp_customer_workgroup": {
+                            "selectedWorkGrp": "17081806300198500",
+                            "isInternalUser": false,
+                            "widgets": {},
+                            "properties": {},
+                            "namespace": "opp_customer_workgroup",
+                            "pluginName": "opp_customer_workgroup"
+                        },
+                        "referenceBuild": {
+                            "CatalogData": "Category1",
+                            "ModifiyedBy": "validation_hpe_us_res_z_05@transformq2c.com",
+                            "widgets": {},
+                            "properties": {},
+                            "namespace": "referenceBuild",
+                            "pluginName": "reference_build_catalog"
+                        },
+                        "toolbar": {
+                            "toolbar": "",
+                            "saveOrUpdateFlag": true,
+                            "hidePrice": true,
+                            "dispalyConvertQuote": false,
+                            "ucid": "TempUCID",
+                            "OCA_User_Role": "Reseller",
+                            "Promoto_To_SweetSpot": false,
+                            "created_by": "validation_hpe_us_res_z_05@transformq2c.com",
+                            "displayNewDelegation": true,
+                            "IsSupportMultipleBundle": false,
+                            "widgets": {},
+                            "properties": {},
+                            "namespace": "toolbar"
+                        }
+                    },
+                    "user": {
+                        "ocaUserRole": "Reseller",
+                        "ocaAaId": "3-K9S4VJ",
+                        "ocaAccountStatus": "Enabled",
+                        "ocaAuthorityViewOppId": false,
+                        "ocaAuthorityViewListPrice": false,
+                        "ocaAuthorityViewAllSkus": false,
+                        "ocaAuthorityViewAllShares": true,
+                        "ocaAuthoritySaveFiles": true,
+                        "ocaAuthorityOpenFiles": true,
+                        "ocaAuthorityOpenAllFiles": false,
+                        "ocaAuthorityHideCi": true,
+                        "ocaAuthorityCiOutputAll": true,
+                        "ocaAuthorityAdminUI": false,
+                        "ocaAuthorityViewAllLegacyDocs": false,
+                        "unauthorizedUser": false,
+                        "showPLCDates": false,
+                        "showLeadTime": false,
+                        "bomProductType": false,
+                        "bomProductLine": false,
+                        "bomConfigName": false,
+                        "bomSolutionId": false,
+                        "bomSupportFor": false,
+                        "bomShowItemNo": false,
+                        "configHideUnavailbeProducts": true,
+                        "configShowExtraCols": false,
+                        "configShowGauges": true,
+                        "configShowFilters": false,
+                        "configNoRack": false,
+                        "configRecentConfigVis": true,
+                        "sharingStatus": "Editable",
+                        "defaultDelegateWG": "[US][DIST]US System Validation account Disti-17081808201990700",
+                        "defaultSaveWG": "[US][RSLR]Demo_Reseller_AMS_4-17081806300198500",
+                        "instanceName": false,
+                        "showSingleBundleSDDExport": false,
+                        "saveLib": false,
+                        "isCountryCodeValid": true,
+                        "ocaPartner": {
+                            "partnerType": "COMM_DLR",
+                            "companyId": "163629814",
+                            "companyNum": "14001",
+                            "partnerLocationId": "10226483",
+                            "regionCompanyId": "",
+                            "accountId": "3-K9S4VJ",
+                            "name": "AMS IT System Validation account",
+                            "createdPersonId": "validation_hpe_us_res_z_05@transformq2c.com",
+                            "creationTimestamp": 1503087457838,
+                            "modifiedPersonId": "validation_hpe_us_res_z_05@transformq2c.com",
+                            "modifiedTimestamp": 1523270903744,
+                            "status": "Active",
+                            "region": "NA",
+                            "countryCode": "US",
+                            "programs": "",
+                            "purchaseAgreements": [],
+                            "priceDescriptors": [
+                                {
+                                    "id": "USUSDDF",
+                                    "code": "USUSDDF",
+                                    "display": "UNITED STATES United States Dollar Duty Free"
+                                },
+                                {
+                                    "id": "USUSDDP",
+                                    "code": "USUSDDP",
+                                    "display": "UNITED STATES United States Dollar Duty Paid"
+                                },
+                                {
+                                    "id": "USUSDSI",
+                                    "code": "USUSDSI",
+                                    "display": "UNITED STATES United States Dollar SGI PUBLIC SECTOR FREEZE"
+                                }
+                            ]
+                        },
+                        "userPrefs": "{\"showPLCDates\":false,\"showLeadTime\":false,\"productType\":false,\"productLine\":false,\"configName\":false,\"solutionId\":false,\"supportFor\":false,\"showLineId\":false,\"hideUnavailableProducts\":true,\"showExtraCols\":false,\"showGauges\":true,\"showFilters\":false,\"defaultNoRack\":false,\"recentConfigVis\":true,\"sharingStatus\":\"Editable\",\"defaultDelegateWG\":\"[US][DIST]US System Validation account Disti-17081808201990700\",\"defaultsaveWorkGrp\":\"[US][RSLR]Demo_Reseller_AMS_4-17081806300198500\",\"instance_name\":false,\"saveLib\":false}",
+                        "userId": "validation_hpe_us_res_z_05@transformq2c.com",
+                        "firstName": "validation",
+                        "lastName": "hpe_us_res_z_05",
+                        "partner": {
+                            "accountId": "",
+                            "name": "",
+                            "parentPartnerId": "",
+                            "createdPersonId": "",
+                            "creationTimestamp": 1523271004251,
+                            "modifiedPersonId": "",
+                            "modifiedTimestamp": 1523271004251,
+                            "status": "Active",
+                            "tier": "",
+                            "region": "",
+                            "countryCode": "",
+                            "programs": "",
+                            "purchaseAgreements": [],
+                            "priceDescriptors": []
+                        },
+                        "createdPersonId": "",
+                        "creationTimestamp": 1512006124616,
+                        "modifiedPersonId": "validation_hpe_us_res_z_05@transformq2c.com",
+                        "modifiedTimestamp": 1523270903750,
+                        "lastLoginDate": 1523270903750,
+                        "email": "validation_hpe_us_res_z_05@transformq2c.com",
+                        "region": "NA",
+                        "countryCode": "US",
+                        "countryName": "UNITED STATES",
+                        "originatingRegion": "NA",
+                        "originatingCountryCode": "US",
+                        "documentLanguageCode": "en_US",
+                        "roleId": "BasicUser",
+                        "status": "Active",
+                        "type": "PRMExternalUser",
+                        "pbsStorageEligible": false,
+                        "pbsNetworkEligible": false,
+                        "saveLibFolder": "\\Default",
+                        "hidePrice": true,
+                        "businessModel": "",
+                        "displayCost": false,
+                        "displayPrice": false,
+                        "displayLeadTime": false,
+                        "bandingType": "",
+                        "shipmentDate": "",
+                        "accountName": "",
+                        "countryRestriction": true,
+                        "autoLocalization": false,
+                        "autoBanded": false,
+                        "accountId": "",
+                        "cid": "",
+                        "transactionId": "",
+                        "targetCatalogType": "",
+                        "productLine": "",
+                        "dealType": "BD",
+                        "fromOCCSearch": false,
+                        "regionPref": "NA",
+                        "dealGeoPref": "US",
+                        "priceDescriptorPref": {
+                            "id": "USUSDDP",
+                            "code": "USUSDDP",
+                            "display": "UNITED STATES United States Dollar Duty Paid"
+                        },
+                        "paNumberPref": "",
+                        "cacCodePref": "",
+                        "discountGeoPref": "US",
+                        "sharePref": "NotShared",
+                        "zeroDollarFeatureCode": false,
+                        "noQuotationPDC": false,
+                        "sectionDefaultChoiceTabIndex": 1,
+                        "enginePrefXML": "<xb:config_preferences xmlns:xb=\"http://preferencesConfigDataObject.engine.ngc.hp.com/xmlbean\"><xb:preference name=\"bto\" value=\"false\"/><xb:preference name=\"country\" value=\"US\"/><xb:preference name=\"display_language\" value=\"en_US\"/><xb:preference name=\"config_language\" value=\"en_US\"/><xb:preference name=\"region\" value=\"NA\"/><xb:preference name=\"services\" value=\"flexibleServicesType\"/><xb:preference name=\"product_lifecycle\" value=\"Active\"/><xb:preference name=\"noServiceReasonCode\" value=\"noServicesReasonCode_TS1\"/><xb:preference name=\"power\" value=\"singlePhase210V\"/><xb:preference name=\"showPopularEnabled\" value=\"true\"/><xb:preference name=\"regionalLocCheck\" value=\"false\"/><xb:preference name=\"servicesUpSellCode\" value=\"false\"/><xb:preference name=\"multipleRacksEnabled\" value=\"false\"/><xb:preference name=\"defaultBladePlacementEnabled\" value=\"true\"/><xb:preference name=\"defaultRackSequence\" value=\"false\"/><xb:preference name=\"powerConnectInRack\" value=\"false\"/><xb:preference name=\"aggregationConnectionPoints\" value=\"false\"/><xb:preference name=\"ocaCountry\" value=\"\"/></xb:config_preferences>",
+                        "debugTrace": false,
+                        "debugView": false,
+                        "sqUser": false,
+                        "userOptions": ""
+                    },
+                    "properties": {},
+                    "config_name": "OCA Config 3",
+                    "isAdminorSupport": false,
+                    "countries": {
+                        "values": [
+                            {
+                                "values": [
+                                    {
+                                        "id": "CA",
+                                        "desc": "CANADA"
+                                    },
+                                    {
+                                        "id": "US",
+                                        "desc": "UNITED STATES"
+                                    },
+                                    {
+                                        "id": "UM",
+                                        "desc": "UNITED STATES MINOR OUTLYING ISLANDS"
+                                    }
+                                ],
+                                "region": "NA"
+                            }
+                        ],
+                        "disabled": false,
+                        "selectedItem": "US"
+                    },
+                    "regions": {
+                        "values": [
+                            {
+                                "id": "NA",
+                                "desc": "North America"
+                            }
+                        ],
+                        "disabled": false,
+                        "selectedItem": "NA"
+                    },
+                    "product_lifecycles": {
+                        "values": [
+                            {
+                                "id": "Active",
+                                "desc": "Active"
+                            },
+                            {
+                                "id": "Obsolete",
+                                "desc": "Obsolete"
+                            }
+                        ],
+                        "disabled": false,
+                        "selectedItem": "Active"
+                    },
+                    "displayLau": "en_US",
+                    "generic_account_id": "999999999",
+                    "last_selected_workgroup_id": "999999999",
+                    "services": {
+                        "values": {
+                            "id": "services",
+                            "title": "Services",
+                            "type": "SINGLE_SELECT",
+                            "enabled": true,
+                            "visible": true,
+                            "required": true,
+                            "status": "CONFIGURATION_STATUS_OK",
+                            "messages": [],
+                            "refreshable": true,
+                            "uiControlType": "",
+                            "selectedItem": "flexibleServicesType",
+                            "items": [
+                                {
+                                    "id": "flexibleServicesType",
+                                    "description": "Flexible Support Services",
+                                    "selected_value": 0,
+                                    "dnq_value": 0,
+                                    "available": true,
+                                    "values": [],
+                                    "isTargetOfferingAvailable": false
+                                },
+                                {
+                                    "id": "fixedServicesType",
+                                    "description": "Fixed Support Services",
+                                    "selected_value": 0,
+                                    "dnq_value": 0,
+                                    "available": true,
+                                    "values": [],
+                                    "isTargetOfferingAvailable": false
+                                },
+                                {
+                                    "id": "noServicesType",
+                                    "description": "No Services",
+                                    "selected_value": 0,
+                                    "dnq_value": 0,
+                                    "available": true,
+                                    "values": [],
+                                    "isTargetOfferingAvailable": false
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "htmls": [
+                "oca_2018_04_05_09_30_14/resources/tools/oca/pages/new_config_page/html/new_config_page.html",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/configuration_delegation/html/eo_tabs.html"
+            ],
+            "css": [
+                "oca_2018_04_05_09_30_14/resources/tools/oca/pages/new_config_page/css/new_config_page.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/catalog/css/catalog.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/lib/jtable/themes/metro/lightgray/jtable.min.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/pages/new_config_page/css/new_config_page.css",
+                "resources/framework/lib/fancytree/skin-lion/ui.fancytree.min.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/overview/css/overview.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/header/css/header.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/recent_configs/css/recent_configs.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/addon_supportonly/css/addon_supportonly.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/configuration_delegation/css/configuration_delegation.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/lib/dataTable/jquery.dataTables.ext.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/autoSave/css/autoSave.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/oppId_customerId_ocaWorkgroup/css/oppId_customerId_ocaWorkgroup.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/oppId_customerId_ocaWorkgroup/css/input_plus.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/pages/sweet_spots_page/css/sweet_spots_page.css",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/toolbar_widget/css/toolbar_widget.css"
+            ],
+            "scripts": [
+                "oca_2018_04_05_09_30_14/resources/tools/oca/pages/new_config_page/js/new_config_page.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/lib/jquery.fs.selecter.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/catalog/js/catalog.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/lib/jquery-tabs.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/lib/jtable/jquery.jtable.js",
+                "resources/framework/lib/fancytree/js/jquery.fancytree-custom.min.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/lib/contextMenu/jquery.contextMenu-1.6.6.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/overview/js/overview.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/header/js/header.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/recent_configs/js/recent_configs.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/addon_supportonly/js/addon_supportonly.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/configuration_delegation/js/configuration_delegation.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/lib/jquery.fs.selecter.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/autoSave/js/autoSave.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/oppId_customerId_ocaWorkgroup/js/oppty_customer_workgroup.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/pages/import_bom_page/js/search_account_MDM.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/lib/jquery.fs.selecter.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/oppId_customerId_ocaWorkgroup/js/input_plus.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/pages/sweet_spots_page/js/sweet_spots_page.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/pages/sweet_spots_page/js/ss_manage_categories.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/pages/import_bom_page/js/search_account_MDM.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/toolbar_widget/js/toolbar_widget.js",
+                "oca_2018_04_05_09_30_14/resources/tools/oca/common/widgets/configuration_delegation/js/configuration_delegation.js"
+            ],
+            "navigation": [
+                {
+                    "pageName": "new_config_page",
+                    "pageDescription": "Create New Configruation Page"
+                }
+            ]
+        }
+    ],
+    "sessionId": "234B6D8F651DBA264787CA5C2447123D",
+    "windowId": "_3",
+    "requestId": 170,
+    "function": "show_recent_config",
+    "dev_mode": false
+}

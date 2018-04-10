@@ -1,0 +1,44 @@
+.power-content{
+    margin-top:10px;
+}
+
+.power-wrapper{
+    margin-top: 10px;
+    height:600px;
+    overflow-y: scroll;
+}
+
+ table{
+    font-size: 13px;
+}
+table thead tr th{
+    font-weight: 500;
+}
+small {
+    margin-top: 0px;
+    font-size: 11px;
+}
+.power-title span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.table-dark {
+    background-color: #08A99A !important;
+}
+.table-dark th{
+    border: none;
+}
+
+.power-data label{
+    font-weight: 700;
+    color : #333;
+    font-size: 14px;
+    margin-bottom: 0.1em;
+}
+
+.power-data p{
+    font-weight: 500;
+    color : #ccc;
+    font-size: 13px;
+}

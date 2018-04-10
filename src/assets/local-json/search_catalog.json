@@ -1,0 +1,192 @@
+{
+    "actions": [
+        {
+            "code": "NO_ACTION",
+            "pageData": {
+                "members": {
+                    "results": [
+                        {
+                            "value": "878722-B21",
+                            "description": "HPE ProLiant DL385 Gen10 7451 2P 64GB-R P408i-a 8SFF SAS 2x800W PS Perf Server",
+                            "isBTO": true,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "JW650A",
+                            "description": "Aruba 7220DC (US) 4p 10GBase-X (SFP+) 2p Dual Pers (10/100/1000BASE-T or SFP) 350W DC Pwr Cntrlr",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "JW752A",
+                            "description": "Aruba 7220 (US) 4p 10GBase-X (SFP+) 2p Dual Pers (10/100/1000BASE-T or SFP) Controller",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "JW753A",
+                            "description": "Aruba 7220 (RW) FIPS/TAA 4p 10GBase-X (SFP+) 2p Dual Pers (10/100/1000BASE-T or SFP) Controller",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "JW754A",
+                            "description": "Aruba 7220 (US) FIPS/TAA 4p 10GBase-X (SFP+) 2p Dual Pers (10/100/1000BASE-T or SFP) Controller",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "JY722A",
+                            "description": "Aruba AP-203RP (US) Flex-radio 802.11ac 2x2 PoE Unified Remote AP and Internal Antennas",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "BD722A",
+                            "description": "VMware vCenter Server Foundation 1yr Software",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "BD722AAE",
+                            "description": "VMware vCenter Server Foundation 1yr E-LTU",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "726722-B21",
+                            "description": "HPE 32GB (1x32GB) Quad Rank x4 DDR4-2133 CAS-15-15-15 Load Reduced Memory Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "830722-B21",
+                            "description": "HPE Apollo 4200 Gen9 Intel Xeon E5-2630Lv4 (1.8GHz/10-core/25MB/55W) Processor Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "872223-B21",
+                            "description": "HPE DL560 Gen10 2SFF Premium HDD Front NVMe/SAS/SATA Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "872225-B21",
+                            "description": "HPE DL560 NVMe 8 SSD Express Bay Enablement Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "872227-B21",
+                            "description": "HPE DL560 Gen10 Premium 6SFF and 2 NVMe or 8SFF Bay1 Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "872229-B21",
+                            "description": "HPE DL560 Gen10 Premium 6SFF and 2 NVMe or 8SFF Bay2 Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "872231-B21",
+                            "description": "HPE DL560 Gen10 Premium 6SFF and 2 NVMe or 8SFF Bay3 Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "872233-B21",
+                            "description": "HPE DL560 Gen10 8SFF HDD Bay1 Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "872235-B21",
+                            "description": "HPE DL560 Gen10 8SFF HDD Bay2 Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "872237-B21",
+                            "description": "HPE DL560 Gen10 8SFF HDD Bay3 Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "872252-B21",
+                            "description": "HPE 1U Gen10 SFF Ball Bearing Rail Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "872261-B21",
+                            "description": "HPE DL5x0 Gen10 System Insight Display Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        },
+                        {
+                            "value": "872267-B21",
+                            "description": "HPE DL560 Gen10 Universal Media Bay Kit",
+                            "isBTO": false,
+                            "isPreOrObs": "Active",
+                            "isProductClass": true,
+                            "isEMR": false
+                        }
+                    ],
+                    "size": 39,
+                    "included": 22
+                }
+            },
+            "htmls": [],
+            "css": [],
+            "scripts": [],
+            "navigation": []
+        }
+    ],
+    "sessionId": "234B6D8F651DBA264787CA5C2447123D",
+    "windowId": "_3",
+    "requestId": 172,
+    "function": "search_catalog",
+    "dev_mode": false
+}

@@ -1,0 +1,54 @@
+.menu-content {
+    border : 1px dotted #4b4b4b;
+    height:100%;
+    padding: 10px;
+
+}
+
+.menu-content ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-content ul li{
+    display: inline-block;
+}
+
+.label {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom : 0px;
+    display: block;
+  }
+  
+  .value {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom : 0px;
+    display: block;
+  }
+
+ .btn-look {
+     width : 100%;
+     height : auto !important;
+     padding-top:10px;
+     padding-bottom:10px;
+     text-align: center;
+     background: none;
+     border : 1px solid #4b4b4b;
+ }
+
+ .btn-look:hover {
+    color : #fff;
+    background-color: #08A99A;
+    
+ }  
+
+ i {
+     font-size: 20px;
+ }
+
+.btn-look span{
+     font-size: 10px;
+     text-align: center;
+ }

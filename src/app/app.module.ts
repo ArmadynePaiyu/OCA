@@ -9,7 +9,13 @@ import { OcaConfigPageComponent } from './oca-config-page/oca-config-page.compon
 import { ManagemyLibraryComponent } from './managemy-library/managemy-library.component';
 import { ComponentConfigComponent } from './component-config/component-config.component';
 import { SummaryConfigComponent } from './summary-config/summary-config.component' ;
-import {Http} from '@angular/http' ;
+import { HttpClientModule } from '@angular/common/http';
+import {SummaryServiceService} from './services/summary-service.service';
+import { OcaPowerComponent } from './oca-power/oca-power.component' ;
+import {APIService} from './providers/api/apiService';
+import { BomComponent } from './bom/bom.component';
+import { MenuBtnOcaComponent } from './menu-btn-oca/menu-btn-oca.component';
+
 
 @NgModule({
   declarations: [
@@ -19,9 +25,13 @@ import {Http} from '@angular/http' ;
     OcaConfigPageComponent,
     ManagemyLibraryComponent,
     ComponentConfigComponent,
-    SummaryConfigComponent
+    SummaryConfigComponent,
+    OcaPowerComponent,
+    BomComponent,
+    MenuBtnOcaComponent
   ],
   imports: [
+    HttpClientModule,
     UiSwitchModule,
     BrowserModule,
     RouterModule.forRoot([
@@ -45,6 +55,14 @@ import {Http} from '@angular/http' ;
           {
             path : "Summary",
             component  :SummaryConfigComponent
+          },
+          {
+            path : "Power",
+            component : OcaPowerComponent
+          },
+          {
+            path :"BOM",
+            component : BomComponent
           }
         ]
       },
@@ -54,7 +72,7 @@ import {Http} from '@angular/http' ;
       }
     ])
   ],
-  providers: [],
+  providers: [APIService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

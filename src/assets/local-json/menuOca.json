@@ -1,0 +1,795 @@
+{
+  "actions": [
+    {
+      "code": "LOAD_PAGE",
+      "pluginName": "main_page",
+      "pageData": {
+        "members": {
+          "widgets": {
+            "extended_overview": {
+              "root": {
+                "key": "root",
+                "title": "OCA Config 2 (AUTO SAVE)",
+                "label": "OCA Config 2 (AUTO SAVE)",
+                "ucid": "6103154632-01",
+                "hasCS": false,
+                "default_tab": "components",
+                "icon": "",
+                "categories": [
+                  {
+                    "name": "Storage",
+                    "icon": "3par7200_small.jpg'",
+                    "extraClasses": "storage"
+                  },
+                  {
+                    "name": "Networking",
+                    "icon": "networking_small.jpg'",
+                    "extraClasses": "switch"
+                  },
+                  {
+                    "name": "Racks",
+                    "icon": "rack_36u_35x69.png",
+                    "extraClasses": "rack"
+                  },
+                  {
+                    "name": "BulkPacks",
+                    "icon": "sl390s_front_small.jpg'",
+                    "extraClasses": "bulk-pack"
+                  },
+                  {
+                    "name": "Servers",
+                    "icon": "sl390s_front_small.jpg'",
+                    "extraClasses": "sl-server"
+                  },
+                  {
+                    "name": "Enclosures",
+                    "icon": "sl6500_chassis_68x38.png",
+                    "extraClasses": "sl-chassis"
+                  },
+                  {
+                    "name": "3PAR Solutions",
+                    "icon": "3par20k_small.jpg'",
+                    "extraClasses": "three-par"
+                  },
+                  {
+                    "name": "Converged Systems",
+                    "icon": "",
+                    "extraClasses": "ctx"
+                  }
+                ],
+                "dnd_accept": "tr",
+                "hideTabs": [
+                  "whereused",
+                  "connection",
+                  "solutionWizard",
+                  "menu"
+                ],
+                "quote": {
+                  "type": "1",
+                  "haveFE": false
+                },
+                "errorFlag": false,
+                "tooltip": "OCA Config 2 (AUTO SAVE)",
+                "expanded": true,
+                "children": [
+                  {
+                    "isTopLevelParent": true,
+                    "isChildNode": false,
+                    "quote": {
+                      "type": "1",
+                      "haveFE": false
+                    },
+                    "key": "|BW908A_0",
+                    "title": "Rack #1",
+                    "qty": 1,
+                    "dnqValue": 0,
+                    "label": "Rack #1",
+                    "tooltip": "HP 42U 600mm x 1200mm Enterprise Shock Rack\nProduct id: BW908A\nPrice: null\nQuantity: 1",
+                    "expanded": true,
+                    "hidden": "{\"description\":\"642 1200 Intelligent Rack Cabinet\",\"product id\":\"BW908A\",\"price\":null,\"quantity\":1}",
+                    "is_model": true,
+                    "noCopyPaste": true,
+                    "price": "",
+                    "ucid": "2ABFD49B28EDE71C7187FF8461C30B2B",
+                    "ownerConfig": {
+                      "engineConfigId": "EC83F05EFC697177D0DF43318A859637",
+                      "configurationType": "SOLUTION",
+                      "isDirty": false
+                    },
+                    "category": "Racks",
+                    "icon": "642_1200mm_Grey_InteligntSeriesRack_LF_32x68.jpg",
+                    "instance_name": "Rack #1",
+                    "subconfig_name": "Rack #1",
+                    "valid_name_regex": "(?!a)a",
+                    "product_number": "BW908A",
+                    "IsBTO": false,
+                    "extraClasses": "model",
+                    "default_tab": "components",
+                    "dnd_accept": ".rackable",
+                    "summary": "39 EIA avail",
+                    "service_summary": "Standard",
+                    "hasCI": 1,
+                    "status": "CONFIGURATION_STATUS_ERROR",
+                    "isCS": false,
+                    "isSolWiz": false,
+                    "isGrp": false,
+                    "hideTabs": [
+                      "solutionWizard",
+                      "solutionWizard"
+                    ],
+                    "operate": [
+                      {
+                        "menu": {
+                          "clone": {
+                            "name": "Clone",
+                            "inSubConfigs": false
+                          },
+                          "edit quantity": {
+                            "name": "Edit Quantity",
+                            "inSubConfigs": false
+                          },
+                          "rename": {
+                            "name": "Rename",
+                            "inSubConfigs": true
+                          },
+                          "mylibrary": {
+                            "name": "Export To Mylibrary",
+                            "inSubConfigs": true
+                          }
+                        },
+                        "opList": "[Clone, Edit Quantity, Rename, Export To Mylibrary]"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "isTopLevelParent": false,
+                        "isChildNode": true,
+                        "quote": {
+                          "type": "1",
+                          "haveFE": false
+                        },
+                        "key": "|BW908A_0|CCB3D5AE7C8843B6D21060122D9D8FC0|instance_2_GROUP",
+                        "title": "3PAR 7200c #1",
+                        "qty": 1,
+                        "dnqValue": 0,
+                        "label": "Rack #1 Group",
+                        "tooltip": "Solution for HPE 3PAR StoreServ 7200c 2-node Storage Base for Storage Centric Rack",
+                        "expanded": true,
+                        "hidden": "{\"description\":\"HP 3PAR StoreServ 7200c Storage Base\",\"product id\":\"E7X65A\",\"price\":null,\"quantity\":2}",
+                        "is_model": true,
+                        "noCopyPaste": true,
+                        "price": "",
+                        "isGroupNode": true,
+                        "ucid": "",
+                        "ownerConfig": {
+                          "engineConfigId": "EC83F05EFC697177D0DF43318A859637",
+                          "configurationType": "SOLUTION",
+                          "isDirty": false
+                        },
+                        "category": "3PAR Solutions",
+                        "icon": "3par7200_small.jpg",
+                        "instance_name": "Rack #1",
+                        "subconfig_name": "3PAR 7200c #1 Group",
+                        "valid_name_regex": "(?!a)a",
+                        "product_number": "N/A",
+                        "IsBTO": false,
+                        "description": "Solution for HPE 3PAR StoreServ 7200c 2-node Storage Base for Storage Centric Rack",
+                        "extraClasses": "three-Par rackable",
+                        "default_tab": "menu",
+                        "dnd_accept": "",
+                        "summary": "",
+                        "service_summary": "Standard",
+                        "hasCI": 1,
+                        "status": "CONFIGURATION_STATUS_ERROR",
+                        "isCS": false,
+                        "isSolWiz": false,
+                        "isGrp": true,
+                        "hideTabs": [
+                          "layout",
+                          "connection",
+                          "solutionWizard"
+                        ],
+                        "operate": [
+                          {
+                            "menu": {
+                              "edit quantity": {
+                                "name": "Edit Quantity",
+                                "inSubConfigs": false
+                              },
+                              "delete": {
+                                "name": "Delete",
+                                "inSubConfigs": false
+                              },
+                              "rename": {
+                                "name": "Rename",
+                                "inSubConfigs": true
+                              }
+                            },
+                            "opList": "[Edit Quantity, Delete, Rename]"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "isTopLevelParent": false,
+                            "isChildNode": true,
+                            "quote": {
+                              "type": "1",
+                              "haveFE": false
+                            },
+                            "key": "|BW908A_0|CCB3D5AE7C8843B6D21060122D9D8FC0|instance_2_GROUP|E7X65A_0",
+                            "title": "3PAR 7200c #1",
+                            "qty": 1,
+                            "dnqValue": 0,
+                            "label": "Rack #1",
+                            "tooltip": "HPE 3PAR StoreServ 7200c 2-node Storage Base for Storage Centric Rack\nProduct id: E7X65A\nPrice: null\nQuantity: 1",
+                            "expanded": true,
+                            "hidden": "{\"description\":\"HP 3PAR StoreServ 7200c Storage Base\",\"product id\":\"E7X65A\",\"price\":null,\"quantity\":1}",
+                            "is_model": true,
+                            "noCopyPaste": true,
+                            "price": "",
+                            "ucid": "CCB3D5AE7C8843B6D21060122D9D8FC0",
+                            "ownerConfig": {
+                              "engineConfigId": "EC83F05EFC697177D0DF43318A859637",
+                              "configurationType": "SOLUTION",
+                              "isDirty": false
+                            },
+                            "category": "3PAR Solutions",
+                            "icon": "3par7200_small.jpg",
+                            "instance_name": "Rack #1",
+                            "subconfig_name": "3PAR 7200c #1",
+                            "valid_name_regex": "(?!a)a",
+                            "product_number": "E7X65A",
+                            "IsBTO": false,
+                            "description": "HPE 3PAR StoreServ 7200c 2-node Storage Base for Storage Centric Rack",
+                            "extraClasses": "three-Par rackable",
+                            "default_tab": "menu",
+                            "dnd_accept": "",
+                            "summary": "2 nodes (3 drives, 1.8TB), 1 enclosures",
+                            "service_summary": "Standard",
+                            "hasCI": 1,
+                            "status": "CONFIGURATION_STATUS_ERROR",
+                            "isCS": false,
+                            "isSolWiz": false,
+                            "isGrp": false,
+                            "hideTabs": [
+                              "layout",
+                              "connection",
+                              "solutionWizard"
+                            ],
+                            "operate": [
+                              {
+                                "menu": {
+                                  "edit quantity": {
+                                    "name": "Edit Quantity",
+                                    "inSubConfigs": false
+                                  },
+                                  "delete": {
+                                    "name": "Delete",
+                                    "inSubConfigs": false
+                                  },
+                                  "rename": {
+                                    "name": "Rename",
+                                    "inSubConfigs": true
+                                  },
+                                  "mylibrary": {
+                                    "name": "Export To Mylibrary",
+                                    "inSubConfigs": true
+                                  }
+                                },
+                                "opList": "[Edit Quantity, Delete, Rename, Export To Mylibrary]"
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "isTopLevelParent": false,
+                            "isChildNode": true,
+                            "quote": {
+                              "type": "1",
+                              "haveFE": false
+                            },
+                            "key": "|BW908A_0|CCB3D5AE7C8843B6D21060122D9D8FC0|instance_2_GROUP|QR490A_0",
+                            "title": "3PAR 7000 Encl #1",
+                            "qty": 1,
+                            "dnqValue": 0,
+                            "label": "[1] Rack #1",
+                            "tooltip": "HPE M6710 2.5 inch 2U SAS Drive Enclosure\nProduct id: QR490A\nPrice: null\nQuantity: 1",
+                            "expanded": true,
+                            "hidden": "{\"description\":\"HPE M6710 2.5 inch 2U SAS Drive Enclosure\",\"product id\":\"QR490A\",\"price\":null,\"quantity\":1}",
+                            "is_model": true,
+                            "noCopyPaste": true,
+                            "price": "",
+                            "ucid": "8051894E2E22A4445717929DE8827E1C",
+                            "ownerConfig": {
+                              "engineConfigId": "EC83F05EFC697177D0DF43318A859637",
+                              "configurationType": "SOLUTION",
+                              "isDirty": false
+                            },
+                            "category": "3PAR Solutions",
+                            "icon": "msa_small.png",
+                            "instance_name": "Rack #1",
+                            "subconfig_name": "3PAR 7000 Encl #1",
+                            "valid_name_regex": "(?!a)a",
+                            "product_number": "QR490A",
+                            "IsBTO": false,
+                            "description": "HPE M6710 2.5 inch 2U SAS Drive Enclosure",
+                            "extraClasses": "three-Par rackable not-configurable",
+                            "default_tab": "menu",
+                            "dnd_accept": "",
+                            "summary": "3 drives, 1.8TB",
+                            "service_summary": "Standard",
+                            "hasCI": 1,
+                            "not_configurable": true,
+                            "status": "CONFIGURATION_STATUS_ERROR",
+                            "isCS": false,
+                            "isSolWiz": false,
+                            "isGrp": false,
+                            "hideTabs": [
+                              "layout",
+                              "connection",
+                              "solutionWizard"
+                            ],
+                            "operate": [
+                              {
+                                "menu": {
+                                  "rename": {
+                                    "name": "Rename",
+                                    "inSubConfigs": true
+                                  },
+                                  "mylibrary": {
+                                    "name": "Export To Mylibrary",
+                                    "inSubConfigs": true
+                                  }
+                                },
+                                "opList": "[Rename, Export To Mylibrary]"
+                              }
+                            ],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ],
+                    "product_type": "hardware",
+                    "description": "HP 42U 600mm x 1200mm Enterprise Shock Rack"
+                  }
+                ],
+                "isPureSoftwareOrAccessory": false,
+                "status": "CONFIGURATION_STATUS_ERROR"
+              },
+              "selected": "root",
+              "imageFolder": "DEVELOPMENT_OneConfig_0_2_0_TD20180301_023_CD20180117_04_04/ExtraFiles/ProductImages/",
+              "isImportBomMode": false,
+              "hidePrice": true,
+              "isBTO": false,
+              "widgets": {},
+              "properties": {},
+              "namespace": "extended_overview",
+              "pluginName": "extended_overview_widget"
+            },
+            "search": {
+              "widgets": {
+                "searchFilterwidget": {
+                  "widgets": {},
+                  "properties": {},
+                  "namespace": "search:searchFilterwidget"
+                },
+                "searchResultwidget": {
+                  "widgets": {},
+                  "properties": {},
+                  "namespace": "search:searchResultwidget"
+                }
+              },
+              "properties": {},
+              "namespace": "search",
+              "pluginName": "searchWidget"
+            },
+            "header": {
+              "user": {
+                "user_id": "oca@hpe.com",
+                "user_name": "oca@hpe.com  ",
+                "region": "NA",
+                "country_code": "US",
+                "country_name": "UNITED STATES",
+                "user_type": "InternalUser",
+                "language_code": "en_US",
+                "language_name": "English (US)",
+                "isSqUser": false,
+                "user_email": "oca@hpe.com",
+                "oca_user_role": "Administrator",
+                "oca_aaid": "ED",
+                "oca_authority_view_oppid": true,
+                "oca_authority_view_list_price": true,
+                "oca_authority_view_all_skus": true,
+                "oca_authority_view_all_shares": true,
+                "oca_authority_save_files": true,
+                "oca_authority_open_files": true,
+                "oca_authority_open_all_files": true,
+                "oca_authority_hide_ci": false,
+                "oca_authority_ci_output_all": true,
+                "oca_authority_admin_ui": true,
+                "oca_authority_view_all_legacy_docs": true,
+                "showSingleBundleSDDExport": false
+              },
+              "oca_authority_admin_ui": true,
+              "isConfigurationStarted": true,
+              "isConfigrued": true,
+              "configSaved": true,
+              "appVersion": "OCA Main Trunk Development ",
+              "kbVersion": "DEVELOPMENT_OneConfig_0.2.0_TD20180301_023_CD20180117:04:04",
+              "wngq_home": "https://ngq-itg-int.itcs.hpecorp.net/q2cwngq/ngom#/home",
+              "environment": "DEV",
+              "ocaInstance": "Jetty",
+              "url1": "https://hpenterprise.sharepoint.com/sites/b1/eg/OCA/Pages/default-page.aspx",
+              "url2": "https://uag.us.hpecorp.net:8443/aveksa",
+              "url3": "http://intranet.hp.com/gtbp/so/bus/Documents/window/GUS/ci.html",
+              "enableSizerIntegration": true,
+              "hasUserManagementPermission": true,
+              "hasDelegationPermission": false,
+              "roles": "Administrator,ITSupportTeam,KESSupportTeam,SolutionArchitect,CQSpecialist,SweetSpotSpecalist",
+              "receivedDlgCount": 6,
+              "widgets": {
+                "recent_configs_widget": {
+                  "widgets": {},
+                  "properties": {},
+                  "namespace": "header:recent_configs_widget",
+                  "pluginName": "recent_configs"
+                },
+                "addon_supportonly": {
+                  "widgets": {},
+                  "properties": {},
+                  "namespace": "header:addon_supportonly",
+                  "pluginName": "addon_supportonly"
+                },
+                "config_delegate_widget": {
+                  "root": {
+                    "key": "root",
+                    "receivedDlgCount": 6
+                  },
+                  "widgets": {},
+                  "properties": {},
+                  "namespace": "header:config_delegate_widget",
+                  "pluginName": "config_delegate_widget"
+                }
+              },
+              "properties": {},
+              "namespace": "header"
+            },
+            "toolbar": {
+              "toolbar": "",
+              "saveOrUpdateFlag": true,
+              "hidePrice": true,
+              "dispalyConvertQuote": true,
+              "ucid": "6103154632-01",
+              "OCA_User_Role": "Administrator",
+              "Promoto_To_SweetSpot": true,
+              "created_by": "oca@hpe.com",
+              "displayNewDelegation": false,
+              "IsSupportMultipleBundle": false,
+              "widgets": {},
+              "properties": {},
+              "namespace": "toolbar"
+            },
+            "catalog": {
+              "widgets": {},
+              "properties": {},
+              "namespace": "catalog"
+            },
+            "version": {
+              "version": "",
+              "saveFlag": true,
+              "widgets": {},
+              "properties": {},
+              "namespace": "version",
+              "pluginName": "version_widget"
+            },
+            "replace": {
+              "widgets": {},
+              "properties": {},
+              "namespace": "replace"
+            },
+            "save_config": {
+              "saveOrUpdateFlag": true,
+              "isWNGQ": false,
+              "displayLau": "en_US",
+              "widgets": {
+                "opp_customer_workgroup": {
+                  "selectedWorkGrp": "000000001",
+                  "isInternalUser": true,
+                  "widgets": {},
+                  "properties": {},
+                  "namespace": "save_config:opp_customer_workgroup",
+                  "pluginName": "opp_customer_workgroup"
+                }
+              },
+              "properties": {},
+              "namespace": "save_config",
+              "pluginName": "save_config"
+            },
+            "autoSave": {
+              "widgets": {},
+              "properties": {},
+              "namespace": "autoSave",
+              "pluginName": "autoSave"
+            },
+            "oca_bom_diff": {
+              "widgets": {},
+              "properties": {},
+              "namespace": "oca_bom_diff",
+              "pluginName": "oca_bom_diff_widget"
+            },
+            "config_delegate_widget": {
+              "root": {
+                "key": "root",
+                "receivedDlgCount": 6
+              },
+              "widgets": {},
+              "properties": {},
+              "namespace": "config_delegate_widget",
+              "pluginName": "config_delegate_widget"
+            },
+            "referenceBuild": {
+              "CatalogData": "Category1",
+              "ModifiyedBy": "oca@hpe.com",
+              "widgets": {},
+              "properties": {},
+              "namespace": "referenceBuild",
+              "pluginName": "reference_build_catalog"
+            }
+          },
+          "user": {
+            "ocaUserRole": "Administrator",
+            "ocaAaId": "ED",
+            "ocaAccountStatus": "Enabled",
+            "ocaAuthorityViewOppId": true,
+            "ocaAuthorityViewListPrice": true,
+            "ocaAuthorityViewAllSkus": true,
+            "ocaAuthorityViewAllShares": true,
+            "ocaAuthoritySaveFiles": true,
+            "ocaAuthorityOpenFiles": true,
+            "ocaAuthorityOpenAllFiles": true,
+            "ocaAuthorityHideCi": false,
+            "ocaAuthorityCiOutputAll": true,
+            "ocaAuthorityAdminUI": true,
+            "ocaAuthorityViewAllLegacyDocs": true,
+            "unauthorizedUser": false,
+            "showPLCDates": true,
+            "showLeadTime": true,
+            "bomProductType": false,
+            "bomProductLine": false,
+            "bomConfigName": false,
+            "bomSolutionId": true,
+            "bomSupportFor": false,
+            "bomShowItemNo": false,
+            "configHideUnavailbeProducts": true,
+            "configShowExtraCols": false,
+            "configShowGauges": true,
+            "configShowFilters": false,
+            "configNoRack": false,
+            "configRecentConfigVis": true,
+            "sharingStatus": "Editable",
+            "defaultDelegateWG": "NA",
+            "defaultSaveWG": "HPE REGRESSION-000000001",
+            "instanceName": true,
+            "showSingleBundleSDDExport": false,
+            "saveLib": false,
+            "isCountryCodeValid": true,
+            "ocaPartner": {
+              "addressInfo": "",
+              "city": "",
+              "hierarchyType": "",
+              "marketingProgram": "",
+              "partnerType": "",
+              "companyId": "",
+              "companyNum": "",
+              "prefLanguageCode": "",
+              "partnerLocationId": "",
+              "primaryChannelSegment": "",
+              "brId": "",
+              "globalDunsNum": "",
+              "regionCompanyId": "",
+              "accountId": "",
+              "name": "",
+              "parentPartnerId": "",
+              "createdPersonId": "",
+              "creationTimestamp": 1522050439048,
+              "modifiedPersonId": "",
+              "modifiedTimestamp": 1522050439048,
+              "status": "Active",
+              "tier": "",
+              "region": "",
+              "countryCode": "",
+              "programs": "",
+              "purchaseAgreements": [],
+              "priceDescriptors": []
+            },
+            "userPrefs": "{\"showPLCDates\":true,\"showLeadTime\":true,\"productType\":false,\"productLine\":false,\"configName\":false,\"solutionId\":true,\"supportFor\":false,\"showLineId\":false,\"hideUnavailableProducts\":true,\"showExtraCols\":false,\"showGauges\":true,\"showFilters\":false,\"defaultNoRack\":false,\"recentConfigVis\":true,\"sharingStatus\":\"Editable\",\"defaultDelegateWG\":\"NA\",\"defaultsaveWorkGrp\":\"HPE REGRESSION-000000001\",\"instance_name\":true,\"saveLib\":false}",
+            "userId": "oca@hpe.com",
+            "firstName": "oca@hpe.com",
+            "middleName": "",
+            "lastName": " ",
+            "partner": {
+              "accountId": "",
+              "name": "",
+              "parentPartnerId": "",
+              "createdPersonId": "",
+              "creationTimestamp": 1522050439048,
+              "modifiedPersonId": "",
+              "modifiedTimestamp": 1522050439048,
+              "status": "Active",
+              "tier": "",
+              "region": "",
+              "countryCode": "",
+              "programs": "",
+              "purchaseAgreements": [],
+              "priceDescriptors": []
+            },
+            "createdPersonId": "",
+            "creationTimestamp": 1404106337000,
+            "modifiedPersonId": "",
+            "modifiedTimestamp": 1522047897443,
+            "lastLoginDate": 1522030638676,
+            "email": "oca@hpe.com",
+            "employeeId": "100001",
+            "region": "NA",
+            "countryCode": "US",
+            "countryName": "UNITED STATES",
+            "originatingRegion": "NA",
+            "originatingCountryCode": "US",
+            "documentLanguageCode": "en_US",
+            "roleId": "GlobalSuperUser",
+            "status": "Active",
+            "type": "InternalUser",
+            "pbsStorageEligible": false,
+            "pbsNetworkEligible": false,
+            "saveLibFolder": "\\Default",
+            "hidePrice": true,
+            "businessModel": "",
+            "displayCost": false,
+            "displayPrice": false,
+            "displayLeadTime": false,
+            "bandingType": "",
+            "shipmentDate": "",
+            "accountName": "",
+            "countryRestriction": true,
+            "autoLocalization": false,
+            "autoBanded": false,
+            "accountId": "",
+            "cid": "",
+            "transactionId": "",
+            "targetCatalogType": "",
+            "productLine": "",
+            "dealType": "BD",
+            "fromOCCSearch": false,
+            "regionPref": "NA",
+            "dealGeoPref": "US",
+            "priceDescriptorPref": {
+              "id": "USUSDDP",
+              "code": "USUSDDP",
+              "display": "UNITED STATES United States Dollar DP"
+            },
+            "paNumberPref": "false",
+            "cacCodePref": "V",
+            "discountGeoPref": "US",
+            "sharePref": "NotShared",
+            "zeroDollarFeatureCode": false,
+            "noQuotationPDC": false,
+            "sectionDefaultChoiceTabIndex": 1,
+            "enginePrefXML": "<xb:config_preferences xmlns:xb=\"http://preferencesConfigDataObject.engine.ngc.hp.com/xmlbean\"><xb:preference name=\"bto\" value=\"false\"/><xb:preference name=\"country\" value=\"US\"/><xb:preference name=\"display_language\" value=\"en_US\"/><xb:preference name=\"config_language\" value=\"en_US\"/><xb:preference name=\"region\" value=\"NA\"/><xb:preference name=\"product_lifecycle\" value=\"Active\"/><xb:preference name=\"noServiceReasonCode\" value=\"noServicesReasonCode_TS1\"/><xb:preference name=\"power\" value=\"singlePhase210V\"/><xb:preference name=\"showPopularEnabled\" value=\"true\"/><xb:preference name=\"regionalLocCheck\" value=\"false\"/><xb:preference name=\"servicesUpSellCode\" value=\"false\"/><xb:preference name=\"multipleRacksEnabled\" value=\"false\"/><xb:preference name=\"defaultBladePlacementEnabled\" value=\"true\"/><xb:preference name=\"defaultRackSequence\" value=\"false\"/><xb:preference name=\"powerConnectInRack\" value=\"false\"/><xb:preference name=\"aggregationConnectionPoints\" value=\"false\"/><xb:preference name=\"ocaCountry\" value=\"\"/></xb:config_preferences>",
+            "debugTrace": false,
+            "debugView": false,
+            "sqUser": false,
+            "userOptions": "",
+            "sourceApplication": "OCA"
+          },
+          "properties": {},
+          "OCA_User_Role": "Administrator",
+          "CanSave": "true",
+          "IsFromWngq": "false",
+          "IsNewConfig": "false",
+          "State": "WorkInProgress",
+          "IsImportBomMode": false,
+          "IsBomDiffNeeded": true,
+          "persistentState": "WorkInProgress",
+          "IsSupportMultipleBundle": false
+        }
+      },
+      "htmls": [
+        "resources/tools/oca/common/widgets/extended_overview_widget/html/eo_popup_tree.html",
+        "resources/tools/oca/common/widgets/extended_overview_widget/html/eo_nav.html",
+        "resources/tools/oca/common/widgets/extended_overview_widget/html/eo_tabs.html",
+        "resources/tools/oca/common/widgets/extended_overview_widget/html/eo_components_tab.html",
+        "resources/tools/oca/common/widgets/configuration_delegation/html/eo_tabs.html",
+        "resources/tools/oca/common/widgets/configuration_delegation/html/eo_tabs.html"
+      ],
+      "css": [
+        "resources/tools/oca/pages/main_page/css/main_page.css",
+        "resources/framework/lib/fancytree/skin-lion/ui.fancytree.min.css",
+        "resources/tools/oca/lib/contextMenu/jquery.contextMenu.ext.css",
+        "resources/tools/oca/common/widgets/extended_overview_widget/css/extended_overview_widget.css",
+        "resources/tools/oca/common/css/foundation.min.css",
+        "resources/tools/oca/lib/pagination/jquery-pagination.css",
+        "resources/tools/oca/common/widgets/search/css/search_widget.css",
+        "resources/tools/oca/common/widgets/header/css/header.css",
+        "resources/tools/oca/common/widgets/recent_configs/css/recent_configs.css",
+        "resources/tools/oca/common/widgets/addon_supportonly/css/addon_supportonly.css",
+        "resources/tools/oca/common/widgets/configuration_delegation/css/configuration_delegation.css",
+        "resources/tools/oca/lib/dataTable/jquery.dataTables.ext.css",
+        "resources/tools/oca/common/widgets/toolbar_widget/css/toolbar_widget.css",
+        "resources/tools/oca/common/widgets/catalog/css/catalog.css",
+        "resources/tools/oca/lib/jtable/themes/metro/lightgray/jtable.min.css",
+        "resources/tools/oca/pages/new_config_page/css/new_config_page.css",
+        "resources/tools/oca/common/widgets/version/css/version.css",
+        "resources/tools/oca/common/widgets/save_config/css/save_config_widget.css",
+        "resources/tools/oca/common/widgets/oppId_customerId_ocaWorkgroup/css/oppId_customerId_ocaWorkgroup.css",
+        "resources/tools/oca/common/widgets/oppId_customerId_ocaWorkgroup/css/input_plus.css",
+        "resources/tools/oca/common/widgets/autoSave/css/autoSave.css",
+        "resources/tools/oca/common/widgets/oca_bom_diff_widget/css/oca_bom_diff_widget.css",
+        "resources/tools/oca/pages/import_bom_page/css/import_bom_page.css",
+        "resources/tools/oca/common/widgets/configuration_delegation/css/configuration_delegation.css",
+        "resources/tools/oca/lib/dataTable/jquery.dataTables.ext.css",
+        "resources/tools/oca/pages/sweet_spots_page/css/sweet_spots_page.css"
+      ],
+      "scripts": [
+        "resources/tools/oca/pages/main_page/js/main_page.js",
+        "resources/tools/oca/lib/contextMenu/jquery.contextMenu.ext.js",
+        "resources/framework/lib/fancytree/js/jquery.fancytree-custom.min.js",
+        "resources/framework/lib/fancytree/js/jquery.ui.touch-punch.min.js",
+        "resources/tools/oca/common/widgets/extended_overview_widget/js/extended_overview_widget.js",
+        "resources/tools/oca/lib/date-formatter.js",
+        "resources/tools/oca/lib/jquery-fastsearch.js",
+        "resources/tools/oca/lib/jquery-tabs.js",
+        "resources/tools/oca/lib/jquery.fs.selecter.js",
+        "resources/tools/oca/lib/pagination/jquery-pagination.js",
+        "resources/tools/oca/lib/jquery-form-utility4oca/jquery-form-utility.js",
+        "resources/tools/oca/common/widgets/ci_components/js/ci_components.js",
+        "resources/tools/oca/common/widgets/search/js/search_filter_widget.js",
+        "resources/tools/oca/common/widgets/search/js/search_result_widget.js",
+        "resources/tools/oca/common/widgets/search/js/search_form_plugin.js",
+        "resources/tools/oca/common/widgets/search/js/search_widget.js",
+        "resources/tools/oca/common/widgets/search/js/search_filter_widget.js",
+        "resources/tools/oca/common/widgets/search/js/search_result_widget.js",
+        "resources/tools/oca/common/widgets/header/js/header.js",
+        "resources/tools/oca/common/widgets/recent_configs/js/recent_configs.js",
+        "resources/tools/oca/common/widgets/addon_supportonly/js/addon_supportonly.js",
+        "resources/tools/oca/common/widgets/configuration_delegation/js/configuration_delegation.js",
+        "resources/tools/oca/lib/jquery.fs.selecter.js",
+        "resources/tools/oca/pages/import_bom_page/js/search_account_MDM.js",
+        "resources/tools/oca/common/widgets/toolbar_widget/js/toolbar_widget.js",
+        "resources/tools/oca/common/widgets/configuration_delegation/js/configuration_delegation.js",
+        "resources/tools/oca/common/widgets/catalog/js/catalog.js",
+        "resources/tools/oca/lib/jquery-tabs.js",
+        "resources/tools/oca/lib/jtable/jquery.jtable.js",
+        "resources/tools/oca/common/widgets/version/js/version.js",
+        "resources/tools/oca/lib/date-formatter.js",
+        "resources/tools/oca/lib/jquery-fastsearch.js",
+        "resources/tools/oca/common/widgets/save_config/js/save_config_widget.js",
+        "resources/tools/oca/common/widgets/oppId_customerId_ocaWorkgroup/js/oppty_customer_workgroup.js",
+        "resources/tools/oca/pages/import_bom_page/js/search_account_MDM.js",
+        "resources/tools/oca/lib/jquery.fs.selecter.js",
+        "resources/tools/oca/common/widgets/oppId_customerId_ocaWorkgroup/js/input_plus.js",
+        "resources/tools/oca/common/widgets/autoSave/js/autoSave.js",
+        "resources/tools/oca/common/widgets/oca_bom_diff_widget/js/oca_bom_diff_widget.js",
+        "resources/tools/oca/common/widgets/configuration_delegation/js/configuration_delegation.js",
+        "resources/tools/oca/lib/jquery.fs.selecter.js",
+        "resources/tools/oca/pages/sweet_spots_page/js/sweet_spots_page.js",
+        "resources/tools/oca/pages/sweet_spots_page/js/ss_manage_categories.js"
+      ],
+      "navigation": [
+        {
+          "pageName": "main_page",
+          "pageDescription": "OCA Main Page"
+        }
+      ],
+      "beforeFunction": "writeCookieForOpenConfig",
+      "beforeFunctionParameter": [
+        "oca@hpe.com_RECENT_OPENED_CONFIG",
+        "{\"id\":\"6103154632-01\",\"name\":\"OCA Config 2 (AUTO SAVE)\",\"creator\":\"oca@hpe.com\",\"lastModifiedDate\":1521804033000}"
+      ]
+    }
+  ],
+  "sessionId": "D71839DD73B27F4363775DEDEDC32C4B",
+  "windowId": "_2",
+  "requestId": 108,
+  "function": "show_recent_config",
+  "dev_mode": false
+}

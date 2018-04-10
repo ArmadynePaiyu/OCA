@@ -6,3 +6,16 @@ html,body {
     font-family: Proxima Nova;
 }
 
+.support-tableheader{
+    background-color: #4D5F6C !important;
+    color: #ffffff !important;
+  }
+  .margin-20{
+    margin-top:20px !important;
+  }
+  .credit-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }

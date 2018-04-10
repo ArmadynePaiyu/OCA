@@ -18,4 +18,10 @@ export class ApiService {
     //.map((res: Response) => res.json())
     .catch((error: any) => Observable.throw( 'Server error'));
   }
+
+  getLifecycleServicesData(): Observable<any[]> {
+    return this.http.get("../assets/local-json/lifecycleServices.json")
+    //.map((res: Response) => res.json())
+    .catch((error: any) => Observable.throw( 'Server error'));
+  }
 }

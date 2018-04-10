@@ -92,7 +92,7 @@ import { ApiService } from 'app/providers/api.service';
       }
     ])
   ],
-  providers: [APIService],
+  providers: [APIService,ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

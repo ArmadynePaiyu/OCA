@@ -1,0 +1,33 @@
+.link {
+    clear: both;
+    margin: 15px 0;
+    font-family: HPSimplified_Rg;
+    font-size: 14px;
+    float: left;
+    width: 100%;
+}
+
+a:link, .link {
+    color: #01A982;
+    cursor: pointer;
+    text-decoration: none;
+}
+.other-tab-file-download {
+    float: left;
+    display: inline;
+}
+.other-tab-file-download li {
+    float: left;
+    padding: 6px;
+    color: #01A982;
+    cursor: pointer;
+}
+.link span {
+    font-weight: bold;
+    float: left;
+    line-height: 32px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+}

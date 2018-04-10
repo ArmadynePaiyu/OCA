@@ -1,0 +1,34 @@
+{
+	"lifecycleServices": [
+        {
+			"quantity": 0,
+			"productNo": "H7A74A1",
+			"description": "HPE 1Y Custom DC for Add On MCS SVC"
+
+        },
+        {
+			"quantity": 0,
+			"productNo": "H7A75A1",
+			"description": "HPE 1Y Custom DC for AddOn ISS SVC"
+
+        },
+        {
+			"quantity": 0,
+			"productNo": "H7A76A1",
+			"description": "HPE 1Y Custom DC for AddOn Stge SVC"
+
+        },
+        {
+			"quantity": 0,
+			"productNo": "H7A77A1",
+			"description": "HPE 1Y Custom DC for AddOn 3PAR SVC"
+
+        },
+        {
+			"quantity": 0,
+			"productNo": "H7A78A1",
+			"description": "HPE 1Y Custom DC for AddOn Net SVC"
+
+		}
+	]
+}

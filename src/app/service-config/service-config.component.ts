@@ -6,7 +6,7 @@ import * as $ from 'jquery';
   styleUrls: ['./service-config.component.css']
 })
 export class ServiceConfigComponent implements OnInit {
-
+ 
   serviceTabs = [
     {
       id : "support",
@@ -121,6 +121,8 @@ export class ServiceConfigComponent implements OnInit {
         });
     });    
   }
-  
-  
+  selectedServiceTab = this.serviceTabs[0];
+  getSelectedServiceTab(tab){
+    this.selectedServiceTab = tab;
+  }
 }

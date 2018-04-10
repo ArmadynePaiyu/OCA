@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { OcaLoginComponent } from './oca-login/oca-login.component';
@@ -9,7 +10,15 @@ import { OcaConfigPageComponent } from './oca-config-page/oca-config-page.compon
 import { ManagemyLibraryComponent } from './managemy-library/managemy-library.component';
 import { ComponentConfigComponent } from './component-config/component-config.component';
 import { SummaryConfigComponent } from './summary-config/summary-config.component' ;
-import {Http} from '@angular/http' ;
+import {Http} from '@angular/http';
+import { ServiceConfigComponent } from './service-config/service-config.component';
+import { SupportAndInstallationComponent } from './service-components/support-and-installation/support-and-installation.component';
+import { OtherServicesComponent } from './service-components/other-services/other-services.component';
+import { LifecycleServicesComponent } from './service-components/lifecycle-services/lifecycle-services.component';
+import { TrainingServiceComponent } from './service-components/training-service/training-service.component';
+import { ConsultingServiceComponent } from './service-components/consulting-service/consulting-service.component';
+import { CreditServiceComponent } from './service-components/credit-service/credit-service.component' ;
+import { ApiService } from 'app/providers/api.service';
 
 @NgModule({
   declarations: [
@@ -19,11 +28,19 @@ import {Http} from '@angular/http' ;
     OcaConfigPageComponent,
     ManagemyLibraryComponent,
     ComponentConfigComponent,
-    SummaryConfigComponent
+    SummaryConfigComponent,
+    ServiceConfigComponent,
+    SupportAndInstallationComponent,
+    OtherServicesComponent,
+    LifecycleServicesComponent,
+    TrainingServiceComponent,
+    ConsultingServiceComponent,
+    CreditServiceComponent
   ],
   imports: [
     UiSwitchModule,
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot([
       {
         path : "",
@@ -45,6 +62,10 @@ import {Http} from '@angular/http' ;
           {
             path : "Summary",
             component  :SummaryConfigComponent
+          },
+          {
+            path : "Service",
+            component  :ServiceConfigComponent
           }
         ]
       },
@@ -54,7 +75,7 @@ import {Http} from '@angular/http' ;
       }
     ])
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

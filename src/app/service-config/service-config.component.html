@@ -1,0 +1,90 @@
+
+<div class="row">
+  <div class="col-sm-5 service-header">
+    <label class="radio-inline"><input type="radio" value="flexService" [(ngModel)]="flexibleService">Flexible Services</label>
+    <label class="radio-inline"><input type="radio" value="fixedService" [(ngModel)]="fixedService">Fixed Services</label>
+  </div>
+  <div class="col-sm-7">
+    <input type="text" class="form-control" id="extended_overview_svc_otherServices_other_search_text"
+     placeholder="<Type in the part number or description to search for Services>">
+    <span class="glyphicon glyphicon-search"></span>
+  </div>
+
+</div>
+<!-- Tab Content -->
+<!-- <div class="row">
+    <ul class="nav nav-tabs">
+        <li [ngClass]="{'active' : i == 0}" *ngFor = "let tab of serviceTabs;let i = index"><a data-toggle="tab" [href]="tab.id">{{tab.val}}</a></li>
+    </ul>
+</div> -->
+
+<div>
+  <!-- Tab Header -->
+    <div class="scroller scroller-left"><i class="glyphicon glyphicon-chevron-left"></i></div>
+    <div class="scroller scroller-right"><i class="glyphicon glyphicon-chevron-right"></i></div>
+    <div class="wrapper">
+      <ul class="nav nav-tabs list" id="myTab">
+        
+        <li [ngClass]="{'active' : i == 0}" *ngFor = "let tab of serviceTabs;let i = index"><a data-toggle="tab" href="#{{tab.id}}">{{tab.val}}</a></li>
+    </ul>
+    </div>
+
+    <!-- Tab Body -->
+    <div class="tab-content">
+        <div id="support" class="tab-pane fade in active">
+          <app-support-and-installation></app-support-and-installation>
+        </div>
+
+        <div id="otherService" class="tab-pane fade">
+          <app-other-services></app-other-services>
+        </div>
+
+        <div id="lifecycleService" class="tab-pane fade">
+          <app-lifecycle-services></app-lifecycle-services>
+        </div>
+
+        <div id="trainingService" class="tab-pane fade">
+          <h3>Menu 3</h3>
+          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+
+        <div id="consultingService" class="tab-pane fade">
+            <h3>HOME</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+          
+        <div id="creditService" class="tab-pane fade">
+          <h3>Menu 1</h3>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div id="factoryExpressService" class="tab-pane fade">
+          <h3>Menu 2</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        </div>
+        
+        <div id="custSpecificService" class="tab-pane fade">
+          <h3>Menu 3</h3>
+          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+
+        <div id="logisticsService" class="tab-pane fade">
+            <h3>Menu 2</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        </div>
+        
+        <div id="nimbleService" class="tab-pane fade">
+          <h3>Menu 3</h3>
+          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+
+        <div id="hpcService" class="tab-pane fade">
+            <h3>Menu 3</h3>
+            <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          </div>
+      </div>
+  </div>
+  
+  
+  
+  

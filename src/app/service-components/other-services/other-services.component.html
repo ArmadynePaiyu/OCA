@@ -1,0 +1,34 @@
+<div>
+    <a>
+    <span>HPE Training Credits for ProLiant & HybridIT Svcs HF385A1, 3 units  is recommended on the 
+      first E5Y41A  .  This will entitle  customer  to the 3 day HPE OneView Administration (H4C04s) course
+       for one student.  Add 3 Training  Credit units  each for any additional students. The  quantity may be
+        manually adjusted via the Training Services tab.
+    </span>
+  </a>
+  <table class="table table-bordered margin-20">
+      <thead>
+        <tr class="support-tableheader">
+          <th>Status</th>
+          <th>Node</th>
+          <th>Quantity</th>
+          <th>Product Number</th>
+          <th>Description</th>
+          <th>Category</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor = "let item of otherServices">
+          <td>{{item.status}}</td>
+          <td>{{item.node}}</td>
+          <td>{{item.quantity}}</td>
+          <td>{{item.productNo}}</td>
+          <td>{{item.description}}</td>
+          <td>{{item.category}}</td>
+          <td>{{item.action}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

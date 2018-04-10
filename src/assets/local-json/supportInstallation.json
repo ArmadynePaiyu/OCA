@@ -1,0 +1,39 @@
+{
+	"supportAndInstallation": [{
+			"node": "WS460c Gen9 #1 HPE ProLiant WS460c Gen9 E5-v4 10Gb/20Gb FlexibleLOM Configure-to-order Server Blade",
+			"level": "Standard",
+			"quantity": "1",
+			"productNo": "836737-B21",
+			"support": "H1K92A3#YHF HPE 3Y Proactive Care 24x7 SVC",
+			"install": "HA114A1#57G HPE Installation and Startup Service",
+			"Action": ""
+		},
+		{
+			"node": "E5Y41A HPE OneView including 3yr 24x7 Support Enclosure FIO Bundle 16-server LTU",
+			"level": "Standard",
+			"quantity": "1",
+			"productNo": "E5Y41A",
+			"support": "H1K92A3#YHF HPE 3Y Proactive Care 24x7 SVC",
+			"install": "NA",
+			"Action": ""
+		},
+		{
+			"node": "C7000#1 HPE BLc7000 Configure-to-order Platinum Enclosure with ROHS Trial Insight Control License",
+			"level": "Standard",
+			"quantity": "1",
+			"productNo": "681844-B21",
+			"support": "H1K92A3#YHF HPE 3Y Proactive Care 24x7 SVC",
+			"install": "HA114A1#57G HPE Installation and Startup Service",
+			"Action": ""
+		},
+		{
+			"node": "733459-B21 HPE 2650W Performance Platinum Hot Plug Power Supply Kit",
+			"level": "Standard",
+			"quantity": "1",
+			"productNo": "733459-B21",
+			"support": "H1K92A3#YHF HPE 3Y Proactive Care 24x7 SVC",
+			"install": "NA",
+			"Action": ""
+		}
+	]
+}

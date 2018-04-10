@@ -15,7 +15,15 @@ import { OcaPowerComponent } from './oca-power/oca-power.component' ;
 import {APIService} from './providers/api/apiService';
 import { BomComponent } from './bom/bom.component';
 import { MenuBtnOcaComponent } from './menu-btn-oca/menu-btn-oca.component';
-
+import {Http} from '@angular/http';
+import { ServiceConfigComponent } from './service-config/service-config.component';
+import { SupportAndInstallationComponent } from './service-components/support-and-installation/support-and-installation.component';
+import { OtherServicesComponent } from './service-components/other-services/other-services.component';
+import { LifecycleServicesComponent } from './service-components/lifecycle-services/lifecycle-services.component';
+import { TrainingServiceComponent } from './service-components/training-service/training-service.component';
+import { ConsultingServiceComponent } from './service-components/consulting-service/consulting-service.component';
+import { CreditServiceComponent } from './service-components/credit-service/credit-service.component' ;
+import { ApiService } from 'app/providers/api.service';
 
 @NgModule({
   declarations: [
@@ -28,12 +36,20 @@ import { MenuBtnOcaComponent } from './menu-btn-oca/menu-btn-oca.component';
     SummaryConfigComponent,
     OcaPowerComponent,
     BomComponent,
-    MenuBtnOcaComponent
+    MenuBtnOcaComponent,
+    ServiceConfigComponent,
+    SupportAndInstallationComponent,
+    OtherServicesComponent,
+    LifecycleServicesComponent,
+    TrainingServiceComponent,
+    ConsultingServiceComponent,
+    CreditServiceComponent
   ],
   imports: [
     HttpClientModule,
     UiSwitchModule,
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot([
       {
         path : "",
@@ -63,6 +79,10 @@ import { MenuBtnOcaComponent } from './menu-btn-oca/menu-btn-oca.component';
           {
             path :"BOM",
             component : BomComponent
+          },
+          {
+            path : "Service",
+            component  :ServiceConfigComponent
           }
         ]
       },

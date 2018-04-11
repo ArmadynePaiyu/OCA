@@ -24,6 +24,7 @@ import { TrainingServiceComponent } from './service-components/training-service/
 import { ConsultingServiceComponent } from './service-components/consulting-service/consulting-service.component';
 import { CreditServiceComponent } from './service-components/credit-service/credit-service.component' ;
 import { ApiService } from 'app/providers/api.service';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { ApiService } from 'app/providers/api.service';
     LifecycleServicesComponent,
     TrainingServiceComponent,
     ConsultingServiceComponent,
-    CreditServiceComponent
+    CreditServiceComponent,
+    MenuComponent
   ],
   imports: [
     HttpClientModule,
@@ -83,6 +85,10 @@ import { ApiService } from 'app/providers/api.service';
           {
             path : "Service",
             component  :ServiceConfigComponent
+          },
+          {
+            path : "Menu",
+            component  :MenuComponent
           }
         ]
       },

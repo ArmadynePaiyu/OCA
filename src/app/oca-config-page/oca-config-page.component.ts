@@ -10,6 +10,12 @@ import * as $ from 'jquery' ;
 })
 export class OcaConfigPageComponent implements OnInit {
 
+  activeList : any ;
+
+  changetoActive(listArray) {
+    this.activeList = listArray ;
+  }
+
 
   constructor(public route:Router) {
 

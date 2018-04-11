@@ -35,6 +35,10 @@ export class OcaConfigPageComponent implements OnInit {
       "icon" : "arrow_forward"
     },
     {
+      "name" : "Menu",
+      "icon" : "arrow_forward"
+    },
+    {
       "name" : "Layout",
       "icon" : "arrow_forward"
     },

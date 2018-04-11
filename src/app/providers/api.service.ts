@@ -24,4 +24,10 @@ export class ApiService {
     //.map((res: Response) => res.json())
     .catch((error: any) => Observable.throw( 'Server error'));
   }
+
+  getMenuItems(): Observable<any[]> {
+    return this.http.get("../assets/local-json/menuComponent.json")
+    //.map((res: Response) => res.json())
+    .catch((error: any) => Observable.throw( 'Server error'));
+  }
 }
